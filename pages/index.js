@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import Images from '../styles/images';
 import React from 'react';
 import Link from 'next/link';
+import Images from '@/styles/images';
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Máy Tính Nguyễn Công - Cửa Hàng Máy Tính Đồ Hoạ - Gaming chuyên nghiệp" />
         <meta property="og:description" content=" Mua máy tính đồ họa, laptop gaming, PC workstation, máy tính để bàn, linh kiện máy tính, card đồ họa cấu hình cao tại Nguyễn Công PC giá rẻ nhất - Giảm giá 50%" />
-        <meta property="og:image" content={Images.logo} />
+        <meta property="og:image" content='https://nguyencongpc.vn/media/banner/02_Marf9f16aa84348d219e9f0d7524d06e6d6.jpg' />
         <meta property="og:locale" content="vi_VN" />
       </Head>
       <div className='center'>
